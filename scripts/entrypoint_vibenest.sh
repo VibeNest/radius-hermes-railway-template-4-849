@@ -8,7 +8,7 @@ export HOME="${HOME:-/data}"
 export MESSAGING_CWD="${MESSAGING_CWD:-/data/workspace}"
 export PORT="${PORT:-3000}"
 export WEBHOOK_PORT="${WEBHOOK_PORT:-$PORT}"
-
+ 
 INIT_MARKER="${HERMES_HOME}/.initialized"
 ENV_FILE="${HERMES_HOME}/.env"
 CONFIG_FILE="${HERMES_HOME}/config.yaml"
